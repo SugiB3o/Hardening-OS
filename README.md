@@ -1,1 +1,1 @@
-# Hardening-OS-
+# Hardening-OS for Windows, Linux
