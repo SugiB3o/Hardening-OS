@@ -107,6 +107,6 @@ $SystemObfuscation = "UmVwbGFjZV9teV93aXRoX2Jhc2U2NF9lbmNvZGU="
 $SystemConvert = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($SystemObfuscation))
 net user /add admin $SystemConvert
 net localgroup administrators admin /add
-#####Set user Pam/Pamias password never expire
+#####Set user Admin password never expire
 Set-LocalUser -Name "admin" -PasswordNeverExpires 1
 #################################################
